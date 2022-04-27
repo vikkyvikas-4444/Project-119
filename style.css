@@ -1,0 +1,47 @@
+body
+{
+    background-color: lightsalmon;
+}
+
+#score
+{
+    font-size: 36;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+#timer
+{
+  font-size:36 ;
+  float: right;
+  margin-right: 95px;
+  font-weight: bold;
+  padding-top:10px;
+      font-family: 'Special Elite', fantasy;
+
+}
+
+#drawn
+{
+  color:blue;
+  
+}
+
+canvas {
+  border: 5px solid white;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 50px;
+  animation-iteration-count: infinite;
+
+  @keyframes example {
+
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+  
+  }
+  
+  
+  
+  
